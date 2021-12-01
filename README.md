@@ -91,7 +91,7 @@ Você pode adicionar outros arquivos se julgar necessário. Qualquer dúvida, pr
 ## Data de entrega
 
 * Projeto em dupla.
-* Serão `a` dia de projeto.
+* Será `1` dia de projeto.
 * Data de entrega para avaliação final do projeto: `09/12/2021 - 14:00h`.
 
 # Instruções para entregar seu projeto

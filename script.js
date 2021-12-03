@@ -4,6 +4,7 @@ const validarSenha = document.getElementById('senha');
 
 const buttonEntrar = document.getElementById('buttonEntrar');
 
+// Valida Email e Senha.
 function validar() {
   if (validarEmail.value === 'tryber@teste.com' && validarSenha.value === '123456') {
     alert('Olá, Tryber!');

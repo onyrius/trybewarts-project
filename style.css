@@ -37,3 +37,8 @@ main {
 .side-by-side {
   display: flex;
 }
+
+.side-by-side-column {
+  display: flex;
+  flex-direction: column;
+}

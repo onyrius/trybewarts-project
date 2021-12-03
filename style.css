@@ -12,6 +12,22 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: rgb(50, 167, 145);
+  height: 100px;
+  box-shadow: black;
+}
+
+.trybewarts-header-logo {
+  height: 70px;
+}
+
+h1 {
+  font-size: 70px;
+  padding-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: rgb(69, 31, 83);
+  font-family: Harry Potter, sans-serif;
+  letter-spacing: 5px;
 }
 
 .trybewarts-login {
@@ -20,8 +36,17 @@ body {
 
 }
 
+h2 {
+  margin: 20px;
+  letter-spacing: 3px;
+  font-size: 30px;
+  color: rgb(69, 59, 71);
+  font-family: Harry Potter, sans-serif;
+}
+
 main {
   display: flex;
+  justify-content: space-around;
 }
 
 #evaluation-form {

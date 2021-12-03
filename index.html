@@ -25,9 +25,8 @@
             <button id='buttonEntrar'>Entrar</button>
         </form>
 
-    </header>
+    </header> 
 
-    <main>
     <main>
 
         <form  id="evaluation-form">
@@ -48,7 +47,7 @@
                     <option value="Pytherina" id="pytherina-house">Pytherina</option>
                 </select>
             </label>
-            </div>
+            </div> 
 
             <hr>
 
@@ -68,9 +67,9 @@
                         <input type="radio" name="family"  value="FullStack" id="fullStackRadio">Fullstack
                     </label>
                 </div>
-                <div class="side-by-side-column">
+                <div class="column-right">
                     <p id="label-content">Qual conteúdo você está com mais vontade de aprender?</p>
-
+                    <div>
                     <label for="">
                         <input type="checkbox" value="HoFs">HoFs
                     </label>
@@ -80,15 +79,18 @@
                     <label for="">
                         <input type="checkbox" value="Promises">Promises
                     </label>
-                    <label for="">
-                        <input type="checkbox" value="React">React
-                    </label>
-                    <label for="">
-                        <input type="checkbox" value="SQL">
-                    </label>
-                    <label for="">
-                        <input type="checkbox" value="Python">Python
-                    </label>
+                    </div>
+                    <div>
+                        <label for="">
+                            <input type="checkbox" value="React">React
+                        </label>
+                        <label for="">
+                            <input type="checkbox" value="SQL">SQL
+                        </label>
+                        <label for="">
+                            <input type="checkbox" value="Python">Python
+                        </label>
+                    </div>
                 </div>
             </div>
             <hr>
@@ -136,11 +138,14 @@
             </div>
             <button id="submit-btn" disabled type="submit">Enviar</button>
         </form>
-
-        <img src="images/trybewarts-colored.svg" alt="logo Trybewarts" id="trybewarts-forms-logo">     
+        <div class="trybewarts-forms-logo">
+            <img src="images/trybewarts-colored.svg" alt="logo Trybewarts" id="trybewarts-forms-logo">  
+        </div>
+        
     </main>
     <footer>
-        Direitos reservados à Trybewarts©
+        <p>Direitos reservados à Trybewarts©</p> 
+        <p>Desenvolvido por Carol Só e Suelen Arruda</p>
     </footer>
 </body>
 <script src="script.js"></script>

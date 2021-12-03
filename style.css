@@ -23,21 +23,17 @@ main {
 }
 
 #evaluation-form {
-  /* display: flex;
+  display: flex;
   width: 675px;
-  flex-direction: column; */
-
-    display: flex;
-    width: 675px;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    flex-wrap: wrap;
-    align-content: flex-start;
+  flex-direction: column;
 }
 
 
 #trybewarts-forms-logo {
   height: 500px;
   width: 675px;
+}
+
+.side-by-side {
+  display: flex;
 }

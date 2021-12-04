@@ -17,39 +17,6 @@ function validar() {
 
 buttonEntrar.addEventListener('click', validar);
 
-// function Habilitarbotão() {
-// //Esta função verifica se a caixa checkbox esta selecionada
-
-// const checkbox = document.getElementById('agreement');
-
-// if(checkbox.checked) {
-//     checkbox = "yesAgreement"
-// } else {
-//    checkbox = "notAgreement"
-//    console.log(checkbox)
-// }
-// //desabilita o botão no início
-// document.getElementById("submit-btn").disabled = true;
-
-// //cria um event listener que escuta mudanças no input
-// document
-//   .getElementById("submit-btn")
-//   .addEventListener("checked", function (event) {
-//     //busca conteúdo do input
-//     var conteudo = document.getElementById("input").value;
-
-//     //valida conteudo do input
-//     if (checkbox === "yesAgreement") {
-//       //habilita o botão
-//       document.getElementById("submit-btn").disabled = false;
-//     } else {
-//       //desabilita o botão se o conteúdo do input ficar em branco
-//       document.getElementById("submit-btn").disabled = true;
-//     }
-//   });
-// }
-//
-
 document.getElementById('agreement').addEventListener('click', (event) => {
   document.getElementById('submit-btn').disabled = false;
 
@@ -62,3 +29,11 @@ document.getElementById('agreement').addEventListener('click', (event) => {
 https://www.horadecodar.com.br/2020/07/28/como-verificar-se-um-checkbox-esta-checado-c-javascript-ou-jquery/
 https://www.w3schools.com/jsref/prop_checkbox_checked.asp
 https://qastack.com.br/programming/3014649/how-to-disable-html-button-using-javascript */
+
+const displayCaracteresDecremento = document.querySelector('#counter');
+const textArea = document.getElementsByTagName('textarea')[0];
+
+textArea.addEventListener('keyup', (event) => {
+  const decremento = event.target.maxLength - event.target.textLength;
+  displayCaracteresDecremento.innerHTML = `máximo ${decremento}`;
+});

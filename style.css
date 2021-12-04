@@ -46,7 +46,7 @@ h2 {
 
 main {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 #evaluation-form {
@@ -55,16 +55,11 @@ main {
   flex-direction: column;
 }
 
-
-#trybewarts-forms-logo {
-  height: 500px;
-  width: 675px;
-}
-
 .side-by-side {
   display: flex;
   padding-bottom: 10px;
   padding-top: 10px;
+  align-content: space-around;
 }
 
 hr {
@@ -89,8 +84,9 @@ footer {
   margin-top: 20px;
 }
 
-.trybewarts-forms-log {
+#trybewarts-forms-logo {
+  height: 500px;
+  width: 675px;
   display: flex;
-  align-content: center;
+  align-self: center;
 }
-

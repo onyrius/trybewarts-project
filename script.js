@@ -159,9 +159,6 @@ Deve haver um campo com o formato "Observações: Observações aqui" */
 // const botaoSubmeter = document.querySelector('#submit-btn');
 // botaoSubmeter.addEventListener('click', submeter);
 
-/** Source https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Working_with_Objects; */
-// https://github.com/tryber/sd-018-b-project-trybewarts/pull/102/files
-
 function submeterForm() {
   const formInicial = document.querySelector('#evaluation-form');
   formInicial.addEventListener('submit', (event) => {
@@ -182,3 +179,5 @@ function submeterForm() {
   });
 }
 submeterForm();
+/** Source https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Working_with_Objects; */
+// https://github.com/tryber/sd-018-b-project-trybewarts/pull/102/files

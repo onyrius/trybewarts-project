@@ -90,3 +90,7 @@ footer {
   display: flex;
   align-self: center;
 }
+
+label {
+  margin: 5px;
+}

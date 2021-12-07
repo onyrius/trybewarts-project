@@ -19,7 +19,7 @@
         <form  class = "trybewarts-login">
 
             <input type="email"
-            placeholder="Email" name="email" id="headerEmail" required>
+            placeholder="Email" name="email" id="email" required>
             <input type="password" placeholder ="Senha" name="password" id="senha" required>
 
             <button id='buttonEntrar'>Entrar</button>
@@ -32,19 +32,19 @@
         <form  id="evaluation-form">
             <h2>Formulário de Avaliação</h2>
             <div class="side-by-side">
-                <input type="text"  id="input-name" placeholder="Nome">
+                <input type="text" name="name" id="input-name" placeholder="Nome">
 
-                <input type="text"  id="input-lastname" placeholder="Sobrenome">
+                <input type="text" name="lastName" id="input-lastname" placeholder="Sobrenome">
             </div>
 
             <div class="side-by-side">
-                <input type="email" id="input-email" placeholder="Email">
+                <input nome="inputEmail" type="email" id="input-email" placeholder="Email">
                 <label for="house"> Casa:
-                <select type id="house">
-                    <option value="Gitnória" id="gitnoria-house">Gitnória</option>
-                    <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
-                    <option value="Corvinode" id="corvinode-house">Corvinode</option>
-                    <option value="Pytherina" id="pytherina-house">Pytherina</option>
+                <select type name="house" id="house">
+                    <option name="house" value="Gitnória" id="gitnoria-house">Gitnória</option>
+                    <option name="house" value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+                    <option name="house" value="Corvinode" id="corvinode-house">Corvinode</option>
+                    <option name="house" value="Pytherina" id="pytherina-house">Pytherina</option>
                 </select>
             </label>
             </div> 
@@ -67,35 +67,36 @@
                         <input type="radio" name="family"  value="FullStack" id="fullStackRadio">Fullstack
                     </label>
                 </div>
-                <div class="column-right">
+                <div id='materias-para-escolher' class="column-right">
                     <p id="label-content">Qual conteúdo você está com mais vontade de aprender?</p>
-                    <div>
+                    <div id="input-subject" name="subject">
                     <label for="">
-                        <input type="checkbox" value="HoFs">HoFs
+                        <input type="checkbox" name="subject" class="subject"  value="HoFs">HoFs
                     </label>
                     <label for="">
-                        <input type="checkbox" value="Jest">Jest
+                        <input type="checkbox" name="subject" class="subject"  value="Jest">Jest
                     </label>
                     <label for="">
-                        <input type="checkbox" value="Promises">Promises
+                        <input type="checkbox" name="subject" class="subject" value="Promises">Promises
                     </label>
                     </div>
-                    <div>
+                    <div id="input-subject" name="subject">
                         <label for="">
-                            <input type="checkbox" value="React">React
+                            <input type="checkbox" name="subject" class="subject"  value="React">React
                         </label>
                         <label for="">
-                            <input type="checkbox" value="SQL">SQL
+                            <input type="checkbox" name="subject" class="subject"  value="SQL">SQL
                         </label>
                         <label for="">
-                            <input type="checkbox" value="Python">Python
+                            <input type="checkbox" name="subject" class="subject" value="Python">Python
                         </label>
                     </div>
                 </div>
             </div>
             <hr>
-            <div class="side-by-side">
+            <div id="input-avaliacao" class="side-by-side">
             <label id="label-rate">Como você avalia a Trybewarts?</label>
+            <div></div>
             <label for="">
                 <input type="radio" name="rate" value="1">1
             </label>
@@ -131,7 +132,7 @@
                 <p id="counter">500</p>
             </div> 
             <label class="textarea" for="textarea">Deixe seu comentário:
-            <textarea name="" id="textarea" cols="50" rows="10" maxlength="500"></textarea>
+            <textarea  id="textarea" name="textObs" cols="50" rows="10" maxlength="500"></textarea>
             </label>
 
             <div class="side-by-side">

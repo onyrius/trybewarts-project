@@ -173,7 +173,7 @@ function submeterForm() {
     document.querySelector('#input-name').innerHTML = fullName;
     document.querySelector('#input-lastname').innerHTML = '';
     console.log();
-    document.querySelector('#input-email').innerHTML = `Email ${formData.get('inputEmail')}`;
+    document.querySelector('#input-email').innerHTML = `Email: ${formData.get('inputEmail')}`;
     document.querySelector('#house').innerHTML = `Casa: ${formData.get('house')}`;
     document.querySelector('.side-by-side-column').innerHTML = `Família: ${formData.get('family')}`;
     document.querySelector('#input-subject').innerHTML = `Matérias: ${subjects.join(', ')}`;

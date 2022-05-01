@@ -6,17 +6,17 @@
 
 ## 🧹 Desenvolvedoras
 <p>
-Eu e esta grande mulher:  <a href="https://github.com/Carolyla">Carol</a> fizemos _pair progamming_ todo o projeto! Que experiência incrível! Pude perceber que com as pessoas parceiras certas, o trabalho rende muito mais!!!
+Eu e esta grande mulher:  <a href="https://github.com/Carolyla">Carol</a> fizemos <em> pair progamming </em> todo o projeto! Que experiência incrível! Pude perceber que com as pessoas parceiras certas, o trabalho rende muito mais!!!
 </p>
 
 <br/>
 
 ## 🧹 Habilidades Desenvolvidas
 
-🎃 Criar formulários em HTML;
-🎃 Utilizar CSS Flexbox para criar layouts flexíveis;
-🎃 Criar regras CSS específicas para serem aplicadas a dispositivos móveis;
-🎃 Construir páginas que alteram o seu layout de acordo com a orientação da tela;
+<li>🎃  Criar formulários em HTML; </li>
+<li>🎃  Utilizar CSS Flexbox para criar layouts flexíveis; </li>
+<li>🎃 Criar regras CSS específicas para serem aplicadas a dispositivos móveis; </li>
+<li>🎃 Construir páginas que alteram o seu layout de acordo com a orientação da tela; </li>
 
 <br/>
 

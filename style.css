@@ -32,8 +32,8 @@ h1 {
 
 .trybewarts-login {
   display: flex;
-  justify-content: space-between;
-
+  flex-direction: column;
+  width: 15%;
 }
 
 h2 {
@@ -46,6 +46,8 @@ h2 {
 
 main {
   display: flex;
+  justify-content: space-around;
+  align-items: center
 }
 
 #evaluation-form {
@@ -85,9 +87,19 @@ footer {
 
 #trybewarts-forms-logo {
   height: 500px;
-  display: flex;
 }
 
 label {
   margin: 5px;
+}
+
+.textarea {
+  display: flex;
+  flex-direction: column;
+  z-index: 0;
+}
+
+.counter {
+  position: relative;
+  z-index: 1;
 }

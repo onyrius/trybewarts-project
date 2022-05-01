@@ -1,6 +1,6 @@
 # 🧙‍♀️ Trybewarts Project 🧙‍♀️
 
-<p>Esse foi o primeiro projeto em grupo desde que comecei a estudar programação. Mesmo tendo estudado Psicologia, sempre estou em aprendizado para trabalhar em grupo. Desenvolver soft skills é a base para o trabalho em grupo e para o crescimento como pessoas profissionais.</p>
+<p>Esse foi o primeiro projeto em grupo desde que comecei a estudar programação. Mesmo tendo estudado Psicologia, é sempre um desafio trabalhar em grupo. Desenvolver soft skills é a base, não só para o trabalho em grupo, mas, também, para nosso crescimento como pessoas profissionais (em todas as áreas).</p>
 
 <br/>
 
